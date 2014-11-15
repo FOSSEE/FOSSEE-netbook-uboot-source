@@ -1,0 +1,92 @@
+#
+# NOTE! Don't add files that are generated in specific
+# subdirectories here. Add them in the ".gitignore" file
+# in that subdirectory instead.
+#
+# Normal rules
+#
+
+*.rej
+*.orig
+*.a
+*.o
+*~
+*.swp
+*.patch
+
+#
+# Top-level generic files
+#
+
+/System.map
+/u-boot
+/u-boot.hex
+/u-boot.imx
+/u-boot.map
+/u-boot.bin
+/u-boot.srec
+/u-boot.ldr
+/u-boot.ldr.hex
+/u-boot.ldr.srec
+/u-boot.lds
+/u-boot-onenand.bin
+/u-boot-flexonenand.bin
+/build
+
+#
+# Generated files
+#
+
+*.depend
+/LOG
+/errlog
+/reloc_off
+
+/include/generated/
+/lib/asm-offsets.s
+
+# stgit generated dirs
+patches-*
+.stgit-edit.txt
+
+# quilt's files
+patches
+series
+
+# gdb files
+.gdb_history
+
+# cscope files
+cscope.*
+
+# tags files
+/tags
+/ctags
+/etags
+
+compressed/piggy.gzip
+compressed/u-boot.bin
+compressed/vmlinux
+tools/bmp_logo
+tools/envcrc
+tools/gen_eth_addr
+tools/img2srec
+tools/mkimage
+zuboot.bin
+define.h
+include/asm
+include/asm-arm/arch
+include/asm-arm/proc
+include/config.h
+include/config.mk
+tools/crc32.c
+tools/environment.c
+
+
+compressed/u-boot.bin
+define.h
+u-boot
+u-boot.bin
+u-boot.map
+zuboot.bin
+
